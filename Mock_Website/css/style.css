@@ -1,0 +1,221 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Default text color */
+    background-image: url('../images/CHICKEN.gif'); /* Keep background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #d9534f;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-image: url('../images/CHICKEN.gif'); /* Keep the same background */
+    color: #fff; /* Change text to white */
+}
+
+h1{
+color: #000;
+text-align: center;
+
+}
+.dark-mode h1{
+    color: #fff ;
+    text-align: center;
+    
+}
+
+/* Dark mode navbar */
+.dark-mode nav ul li a {
+    color: #fff ;
+}
+
+/* Dark mode button */
+#darkModeToggle {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+header {
+    background-color: #d9534f;
+    color: white;  /* Keeps the header text white */
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+
+    text-align: center;
+    color: #000;
+}
+
+.dark-mode h2{
+    color: #fff ;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+    }
+
+.dark-mode header{
+background-color: #000;
+
+}
+
+button{
+    padding: 15px;
+    background-color: #d9534f;
+
+    }
+
+
+
+nav ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline; /* Makes the list items appear horizontally */
+    margin-right: 20px; /* Adds space between each list item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes the underline from links */
+    color: #000; /* Sets the text color to black */
+    font-size: 18px; /* Increases font size for better visibility */
+    font-weight: bold; /* Makes the text bold */
+    transition: color 0.3s ease; /* Smooth transition effect when hovering */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    color: #007bff; /* Changes color when hovered */
+}
+
+p{
+    color:#000;
+    text-align: center;
+ 
+
+}
+
+.dark-mode p{
+    color: #fff ;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #d9534f;
+    color: white; /* Keeps the footer text white */
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.dark-mode footer{
+background-color: #000;
+
+}
+
+form{
+
+    text-align: center;
+}
+
+label{
+
+    text-align: center;
+}
+
+input[type="submit"]{
+
+    text-align: center;
+    background-color: #d9534f;
+    padding: 10px;
+}
+
+a{
+
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.home {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.about {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.contact {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.signup {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.logout {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.div{
+
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
