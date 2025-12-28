@@ -4,16 +4,6 @@
         "psr-4": {
             "App\\": "classes/"
         }
-{
-- name: Validate composer.json and composer. lock
-  run: composer validate --strict
-  working-directory: Mock_Website
-
-- name: Install dependencies
-  run: composer install --prefer-dist --no-progress
-  working-directory: Mock_Website
-
-    }
         
     },
     "require": {},
@@ -30,4 +20,5 @@
     }
 
 }
+
 
